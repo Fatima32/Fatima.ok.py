@@ -159,7 +159,7 @@ def setting():
 		method.append('api')
 	else:
 		method.append('api')
-	print("""%s \x1b[92;1m===================================>\x1b[92;1m """%(f))
+	print("""%s \x1b[92;1m===================================>\x1b[92;1m """%(h))
 	fast = input(x+'\33[1;96m Want To Start ? (y/t) : ')
 	if fast in ['y','Y']:
 		passwrd()
