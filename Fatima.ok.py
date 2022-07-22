@@ -194,7 +194,7 @@ def passwrd():
 			else:
 				pool.submit(crack2,idf,pwv)
 	print('')
-	print("""%s \x1b[92;1m===================================>\x1b[92;1m """%(F)
+	print("""%s \x1b[92;1m===================================>\x1b[92;1m """%(h)
 	exitss = input(x+'\33[1;96m Want to Exit (y/t) : ')
 	if exitss in ['y','Y']:
 		exit()
